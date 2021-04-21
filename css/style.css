@@ -445,12 +445,15 @@ a:hover, a:active, a:focus {
 
 #credit {
   padding-top: 20vh;
-  height: 100vh;
   padding-bottom: 20vh;
 }
 
 .credit-stats p {
-  padding-bottom: 5vh;
+  padding: 5px 0;
+}
+
+.credit-stats h2 {
+  padding: 15px 0;
 }
 
 
@@ -475,7 +478,8 @@ a:hover, a:active, a:focus {
 .blog-post-video {
   padding-top: 22px;
   padding-bottom: 22px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 #about img,
@@ -529,7 +533,7 @@ a:hover, a:active, a:focus {
   border-color: transparent;
   color: #ffffff;
 }
-
+/* 
 .blog-author {
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
@@ -611,7 +615,7 @@ a:hover, a:active, a:focus {
   background: #333;
   border-color: transparent;
   color: #ffffff;
-}
+} */
 
 
 
@@ -638,7 +642,14 @@ a:hover, a:active, a:focus {
   padding-top: 16px;
 }
 
+#blog-single-post h4 {
+  padding: 40px 0 20px 25px;
+}
 
+div.travel_text {
+  padding-top: 20px;
+  /* background-color: pink; */
+}
 
 /*---------------------------------------
    Footer section              
