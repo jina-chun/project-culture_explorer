@@ -651,6 +651,10 @@ div.travel_text {
   /* background-color: pink; */
 }
 
+#ticket_info {
+  display: none;
+}
+
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/

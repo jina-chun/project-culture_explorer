@@ -25,6 +25,9 @@ http://www.tooplate.com/view/2085-neuron
      <link rel="stylesheet" href="css/style.css">
      <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
+      <!-- Team 12 own JS coding script -->
+      <script src="main.js"></script>
+
 </head>
 
 <body>
@@ -147,13 +150,15 @@ http://www.tooplate.com/view/2085-neuron
                                         <p>Image <a href="https://www.flickr.com/photos/adforce1/5559170576/">Universal Studios Singapore</a> 
                                              is provided by <a href="https://www.flickr.com/photos/84493444@N00">William Cho</a></p>
 
-                                        <p>Ticket Price: <br>
+
+                                        <p id="ticket_info">Ticket Price: <br>
                                              Adult (Age 13-59) - SGD81 <br>
                                              Child (Age 4-12) - SGD61 <br>
                                              Senior (Age 60 and above) - SGD43 <br>
                                         </p>
-
-                                        <p>Sentosa Website for more <a href="https://www.rwsentosa.com/en/attractions/universal-studios-singapore/tickets">Ticket Information</a></p>
+                                        
+                                        <button id="btn_name" type="button" onclick="do_showMore()">Ticket Info</button>
+                                        <p> See Sentosa Website for more <a href="https://www.rwsentosa.com/en/attractions/universal-studios-singapore/explore"> Information</a></p>
 
                                    </div>
                                    <div class="col-lg-6 col-sm-12">
@@ -237,12 +242,6 @@ http://www.tooplate.com/view/2085-neuron
                                         </div>
                                    </div>
                               </div>
-
-
-
-
-
-
                               </div>
                          </div>
                     </div>
