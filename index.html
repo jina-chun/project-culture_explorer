@@ -9,7 +9,7 @@
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title> Culture Exploror | Team 12</title>
+<title>Neuron HTML CSS Template</title>
 <!--
 
 Template 2085 Neuron
@@ -23,6 +23,16 @@ http://www.tooplate.com/view/2085-neuron
 <!-- Main css -->
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+
+<!-- TypeiIt -->
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+<!-- FancyBox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<!-- ScrollReveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 <body>
@@ -46,7 +56,7 @@ http://www.tooplate.com/view/2085-neuron
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                </button>
-               <a href="index.html" class="navbar-brand">CCCC</a>
+               <a href="index.html" class="navbar-brand">Home</a>
           </div>
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
@@ -63,22 +73,250 @@ http://www.tooplate.com/view/2085-neuron
 <!-- Home Section -->
 
 <section id="home" class="main-home parallax-section">
-     <div class="overlay"></div>
-     <div id="particles-js"></div>
+   
+    <!-- Deleted This
+     <div class="overlay"></div> 
+     <div id="particles-js"></div> -->
      <div class="container">
           <div class="row">
 
                <div class="col-md-12 col-sm-12">
-                    <h1>Hello! This is Neuron.</h1>
-                    <h4>Responsive Blog HTML CSS Website Template</h4>
-                    <a href="#blog" class="smoothScroll btn btn-default">Discover More</a>
+                    <h1>Culture Explorer<h1>
+                    <h4>Here you will find interesting travel destinations and exciting photos</h4>
+                    <h5 id = "h5"></h5>
                </div>
 
           </div>
      </div>
+
+<script>
+
+new TypeIt("#h5", {
+	lifeLike: true, 
+	speed: 200,
+	loop: true,
+    startDelay: 3000
+})
+.type("“Travel is fatal to prejudice, bigotry, and narrow mindedness, and many of our people need it sorely on these accounts.” ~ Mark Twain")
+.go();
+
+</script>
+
 </section>
 
-<!-- Blog Section -->
+
+<!-- Welcoming Paragraph -->
+
+<section id="blog">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="blog-post-thumb">
+                         
+                         <div class="blog-post-title">
+                              <h3 class = "Welcome">Welcome to our Travel Blog<h3>
+                         </div>
+ 
+                         <div class="blog-post-des">
+                              <p class = WelcomeP>
+                               
+                                We are a group of rising developers and computer scientists studying together at Boston University. There are at least two matters that unite us: CS103 and a passion for travel. Therefore, we have decided to gather together and write a website about our travelling. On this website you will find a page that further introduces us and many pages with our favourite travel spots. Here, we attempted to compile the brightest highlights of our travel destinations and present the finest sites for entertainment and cuisine tasting.
+                              
+                              </p>
+                              <div class = "read_more">
+                              <a href="about.html" class="btn btn-default">Read More About Us</a>
+                              </div>
+                         </div>
+                    
+                </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Our Pictures -->
+
+<h2 class = "our_gallery" style = "text-align: center;">Let us briefly introduce ourselves</h2>
+
+<div class = "our_photos">
+<div style = "float:left; width: 30%; margin-left: 5vw">
+<img src="images/profile.jpg" style = "border-radius: 55px; border: solid black;">
+<p style = "float: left; margin-right: 10px; width: 40%">Hey my name is Sergey. <br> <br> I am a senior at BU majoring in Economics and Mathematics</p>
+</div>
+
+<div style = "float:left; width: 30%">
+<img src="images/jina_profile.jpg" style = "border-radius: 55px; border: solid black;">
+<p style = "float: left; margin-right: 10px; width: 40%">Hey my name is Jina <br> <br> I am a senior at BU majoring in Computer Science</p>
+</div>
+
+<div style = "float:left; width: 30%">
+<img src="images/aylin.jpg" style = "border-radius: 55px; border: solid black;">
+<p style = "float: left; margin-right: 10px; width: 40%">Hey my name is Aylin <br> <br> I am a junior at BU majoring in 'some major'</p>
+</div>
+</div>
+
+
+<h2 class = "our_gallery" style = "clear: both; margin-top: 20vw; text-align: center">Have a look at our gallery</h2>
+
+<!-- Photos -->
+<div class="row mb-4">
+    <div class="col-6 col-lg-4">
+        
+        <figure class = "picture1">
+            <a class="d-block mb-4" data-fancybox="images" href="https://source.unsplash.com/lSXpV8bDeMA/1536x2304" data-width="1536" data-height="2304">
+                <img class="img-fluid" src="images/burj.jpg" style = "border: solid black; border-radius: 25px;">
+            </a>
+            <figcaption> 
+                <h6>Burj Khalifa, the highest skyscraper in the world</h6>
+            </figcaption>
+        </figure>
+
+        <figure class = "picture2">
+            <a class="d-block mb-4" data-fancybox="images" href="https://source.unsplash.com/ty4X72BSsXY/1279x853" data-width="1279" data-height="853">
+                <img class="img-fluid" src="images/marina.jpg" style = "border: solid black; border-radius: 25px;">
+            </a>
+            <figcaption>
+                <h6>Famous Marina Bay Sands Hotel</h6>
+            </figcaption>
+        </figure>
+
+    </div>
+    
+    <div class="col-6 col-lg-4">
+        
+        <figure class = "picture3">
+            <a class="d-block mb-4" data-fancybox="images" href="https://source.unsplash.com/QkPb5g9p338/1279x719" data-width="1279"
+                data-height="719">
+                <img class="img-fluid" src="images/balloons.jpg" style = "border: solid black; border-radius: 25px;">
+            </a>
+            <figcaption>
+                <h6>Hot Air Baloons</h6>
+            </figcaption>
+        </figure>
+
+        <figure class = "picture4">
+            <a class="d-block mb-4" data-fancybox="images" href="https://source.unsplash.com/z55CR_d0ayg/1279x853" data-width="1279"
+                data-height="853">
+                <img class="img-fluid" src="images/rocks.jpg" style = "border: solid black; border-radius: 25px;">
+            </a>
+        <figure class = "picture5">
+                <h6>Beautiful Rock Formations</h6>
+            </figcaption>
+        </figure>
+
+        <figure class = "picture6">
+            <a class="d-block mb-4" data-fancybox="images" href="https://source.unsplash.com/IbLZjKcelpM/1020x858" data-width="1020"
+                data-height="858">
+                <img class="img-fluid" src="images/palm.jpg" style = "border: solid black; border-radius: 25px;">
+            </a>
+            <figcaption>
+                <h6>Palm Islands</h6>
+            </figcaption>
+        </figure>
+
+    </div>
+    <div class="col-6 col-lg-4 d-none d-lg-block">
+
+        <figure class = "picture7">
+            <a class="d-block mb-4" data-fancybox="images" href="https://source.unsplash.com/KgCbvOWYuU0/1279x870" data-width="1279"
+                data-height="870">
+                <img class="img-fluid" src="images/park.jpg" style = "border: solid black; border-radius: 25px;">
+            </a>
+            <figcaption>
+                <h6>Gardens by the Bay</h6>
+            </figcaption>
+        </figure>
+
+        <figure class = "picture8">
+            <a class="d-block mb-4" data-fancybox="images" href="https://source.unsplash.com/O7qK1vQY3p0/1519x2279" data-width="1519"
+                data-height="2279">
+                <img class="img-fluid" src="images/sochi1.jpeg" style = "border: solid black; border-radius: 25px;">
+            </a>
+            <figcaption>
+                <h6>A beautiful view in Sochi</h6>
+            </figcaption>
+        </figure>
+    </div>
+</div>
+
+<script>
+    ScrollReveal().reveal('.Welcome', { delay: 500, duration: 2000, reset: true });
+    ScrollReveal().reveal('.WelcomeP', { delay: 500, duration: 3000, reset: true });
+    ScrollReveal().reveal('.read_more', { delay: 500, duration: 3000, reset: true });
+    ScrollReveal().reveal('.our_gallery', { delay: 500, duration: 3000, reset: true });
+    ScrollReveal().reveal('.our_photos', { delay: 500, duration: 3000, reset: true });
+    ScrollReveal().reveal('.picture1', { delay: 1000, duration: 3000, reset: true });
+    ScrollReveal().reveal('.picture3', { delay: 1000, duration: 3000, reset: true });
+    ScrollReveal().reveal('.picture4', { delay: 1000, duration: 3000, reset: true });
+    ScrollReveal().reveal('.picture6', { delay: 1000, duration: 3000, reset: true });
+    ScrollReveal().reveal('.picture2', { delay: 1000, duration: 3000, reset: true });
+    ScrollReveal().reveal('.picture5', { delay: 1000, duration: 3000, reset: true });
+    ScrollReveal().reveal('.picture8', { delay: 1000, duration: 3000, reset: true });
+    ScrollReveal().reveal('.picture7', { delay: 1000, duration: 3000, reset: true });
+</script>
+
+<script>
+
+    // Clone defaults
+    var imgOpts = $.extend(true, {}, $.fancybox.defaults, {
+        caption : function( instance, item ) {
+            return $(this).next('figcaption').html();
+        }
+    });
+
+    // Shortcut to apply options to image gallery
+    function applyImgOpts() {
+        $('[data-fancybox="images"]').fancybox(imgOpts);
+    }
+
+    $("#imgOpts select").change(function () {
+        var opt = $(this).attr("id");
+        var val = $(this).val();
+
+        imgOpts[opt] = val === "" ? false : val;
+
+        // Make "fade" transiton faster than others
+        if (opt === 'transitionEffect') {
+            imgOpts['transitionDuration'] = opt === 'fade' ? 330 : 550;
+        }
+
+        applyImgOpts();
+    });
+
+    $("#imgOpts input[type=radio][name=lang]").on("change", function () {
+        imgOpts.lang = $(this).val();
+
+        applyImgOpts();
+    });
+
+    $("#imgOpts .toggle").change(function () {
+        if (this.id === 'thumbs') {
+            imgOpts.thumbs.autoStart = this.checked ? true : false;
+        } else {
+            imgOpts[this.id] = this.checked ? true : false;
+        }
+
+        applyImgOpts();
+    });
+
+    $("#imgOpts .buttons").change(function () {
+        var buttonArr = $('input:checkbox:checked.buttons').map(function () {
+            return this.value;
+        }).get();
+
+        buttonArr.push('close');
+
+        imgOpts.buttons = buttonArr;
+
+        applyImgOpts();
+    });
+
+    applyImgOpts();
+
+</script>
+
+<!-- Blog Section Deleted
 
 <section id="blog">
      <div class="container">
@@ -188,7 +426,7 @@ http://www.tooplate.com/view/2085-neuron
 
           </div>
      </div>
-</section>
+</section> -->
 
 <!-- Footer Section -->
 
