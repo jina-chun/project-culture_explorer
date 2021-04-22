@@ -293,6 +293,10 @@ a:hover, a:active, a:focus {
   background: url('../images/single-post-bg.jpg') no-repeat;
 }
 
+.aylin{
+ background: url('../images/abc.jpg') no-repeat; height: 500px; 
+}
+
 .main-gallery {
   background: url('../images/gallery-bg.jpg') no-repeat;
 }
