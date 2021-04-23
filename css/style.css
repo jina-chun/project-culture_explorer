@@ -546,6 +546,14 @@ a:hover, a:active, a:focus {
   font-size: 20px;
 }
 
+.row p {
+  font-size: 16px;
+}
+
+.row p.img-caption {
+  font-size: 12px;
+}
+
 
 /* 
 .blog-author {
