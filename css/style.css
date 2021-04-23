@@ -290,7 +290,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-single-post {
-  background: url('../images/single-post-bg.jpg') no-repeat;
+  background: url('../images/sg-img4.jpg') no-repeat;
 }
 
 .aylin{
@@ -541,6 +541,12 @@ a:hover, a:active, a:focus {
   border-color: transparent;
   color: #ffffff;
 }
+
+.row h4 {
+  font-size: 20px;
+}
+
+
 /* 
 .blog-author {
   border-top: 1px solid #f0f0f0;
