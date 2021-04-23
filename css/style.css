@@ -91,6 +91,11 @@ a:hover, a:active, a:focus {
   box-sizing: border-box;
 }
 
+#edit {
+position:relative;
+left:35px;
+}
+
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
@@ -433,31 +438,31 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .point1 {
-	background-color: hsla(36, 100%, 66%, 0.64);
+	background-color: #48D1CC;
 	border: solid white;
 	border-radius: 60px;
 }
 
 .point2 {
-	background-color: hsla(36, 100%, 66%, 0.64);
+	background-color: #48D1CC;
 	border: solid white;
 	border-radius: 60px;
 }
 
 .point3 {
-	background-color: hsla(36, 100%, 66%, 0.64);
+	background-color: #48D1CC;
 	border: solid white;
 	border-radius: 60px;
 }
 
 .point4 {
-	background-color: hsla(36, 100%, 66%, 0.64);
+	background-color: #48D1CC;
 	border: solid white;
 	border-radius: 60px;
 }
 
 .point5 {
-	background-color: hsla(36, 100%, 66%, 0.64);
+	background-color:#48D1CC;
 	border: solid white;
 	border-radius: 60px;
 }
@@ -586,6 +591,8 @@ a:hover, a:active, a:focus {
 
 .row p.img-caption {
   font-size: 12px;
+  position:relative;
+left:35px;
 }
 
 
