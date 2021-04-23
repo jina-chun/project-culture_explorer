@@ -428,6 +428,40 @@ a:hover, a:active, a:focus {
 }
 
 
+/*---------------------------------------
+   Destinations Sections              
+-----------------------------------------*/
+
+.point1 {
+	background-color: hsla(36, 100%, 66%, 0.64);
+	border: solid white;
+	border-radius: 60px;
+}
+
+.point2 {
+	background-color: hsla(36, 100%, 66%, 0.64);
+	border: solid white;
+	border-radius: 60px;
+}
+
+.point3 {
+	background-color: hsla(36, 100%, 66%, 0.64);
+	border: solid white;
+	border-radius: 60px;
+}
+
+.point4 {
+	background-color: hsla(36, 100%, 66%, 0.64);
+	border: solid white;
+	border-radius: 60px;
+}
+
+.point5 {
+	background-color: hsla(36, 100%, 66%, 0.64);
+	border: solid white;
+	border-radius: 60px;
+}
+
 
 /*---------------------------------------
    Contact section              
