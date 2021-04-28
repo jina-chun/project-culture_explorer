@@ -479,7 +479,9 @@ left:35px;
 	border-radius: 60px;
 }
 
-
+.img-responsive {
+border-radius: 20%;
+}
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
